@@ -21,6 +21,10 @@ namespace RedisExample.API
         {
             services.AddSingleton<WeatherForecastService>();
             services.AddControllers();
+            services.AddStackExchangeRedisCache(options => {
+                options.Configuration = Configuration.GetConnectionString("Redis");
+                options.InstanceName = "RedisExampleApp_";
+            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
