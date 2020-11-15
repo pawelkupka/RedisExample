@@ -2,7 +2,7 @@
 
 ## Instalacja Redis w Windows
 
-Ściągnij https://github.com/microsoftarchive/redis/releases/download/win-3.2.100/Redis-x64-3.2.100.zip 
+Ściągnij i uruchom server Redis https://github.com/microsoftarchive/redis/releases/tag/win-3.2.100
 
 ## Instalacja Redis za pomocą Dockera
 
