@@ -7,6 +7,7 @@
 ## Instalacja Redis za pomocą Dockera
 
 cmd > docker run --name my-redis -p 5002:6379 -d redis
+
 cmd > docker exec -it my-redis sh
 
 ## Instalacja klientów Redis do C#
